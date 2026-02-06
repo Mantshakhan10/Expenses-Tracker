@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  :root {
+    --background: #F4F4FA;
+    --foreground: #1E293B;
+    --card: #FFFFFF;
+    --card-foreground: #1E293B;
+    --border: #E2E8F0;
+    
+    --primary: #00B7B5;
+    --primary-hover: #018790;
+    --primary-foreground: #FFFFFF;
+    
+    --secondary: #018790;
+    --dark-accent: #005461;
+    
+    --muted: #F1F5F9;
+    --muted-foreground: #64748B;
+    
+    --destructive: #EF4444;
+    --success: #10B981;
+  }
+
+  .dark {
+    --background: #001216; /* Deep navy derived from dark accent */
+    --foreground: #F8FAFC;
+    --card: #001F26;
+    --card-foreground: #F8FAFC;
+    --border: #003642;
+    
+    --primary: #00B7B5;
+    --primary-hover: #018790;
+    --primary-foreground: #FFFFFF;
+    
+    --secondary: #018790;
+    --dark-accent: #005461;
+    
+    --muted: #002B36;
+    --muted-foreground: #94A3B8;
+  }
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+/* Custom Utilities for smooth UI */
+.glass {
+  background-color: color-mix(in srgb, var(--card) 85%, transparent);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.card-shadow {
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.05);
+}
+
+.dark .card-shadow {
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.4);
+}
+
+/* Scrollbar customization */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--muted-foreground);
+}
