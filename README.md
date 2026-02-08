@@ -1,82 +1,142 @@
 <div align="center">
-💸 Expenses Tracker
-A simple way to track where your money goes
-<img src="https://img.shields.io/badge/MERN-Stack-blue" /> <img src="https://img.shields.io/badge/Status-Active-success" /> <img src="https://img.shields.io/badge/Project-Type%20Major-orange" /> </div>
-📌 Overview
-<p style="font-size:14px;"> <strong>Expenses Tracker</strong> is a full-stack web application that helps users record, organize, and monitor their daily expenses and income. The goal of this project is to make expense management simple while applying real-world full-stack development concepts. </p> <p> This project is built using the <strong>MERN stack</strong> and is suitable for academic submission, portfolio use, and personal learning. </p>
-✨ Features
-<ul> <li>➕ Add income and expense records</li> <li>🗂️ Categorize expenses</li> <li>📄 View complete transaction history</li> <li>⚙️ RESTful backend API</li> <li>🧩 Clean and structured UI</li> </ul>
-🛠️ Tech Stack
-<table> <tr> <td><strong>Frontend</strong></td> <td>React, HTML, CSS, JavaScript</td> </tr> <tr> <td><strong>Backend</strong></td> <td>Node.js, Express.js</td> </tr> <tr> <td><strong>Database</strong></td> <td>MongoDB</td> </tr> <tr> <td><strong>Tools</strong></td> <td>Git, GitHub, npm</td> </tr> </table>
-📂 Project Structure
+
+  <h1>💸 Expenses Tracker</h1>
+  <p><i>Track your expenses. Understand your spending.</i></p>
+
+  <img src="https://img.shields.io/badge/MERN-Stack-blueviolet" />
+  <img src="https://img.shields.io/badge/Status-Active-success" />
+  <img src="https://img.shields.io/badge/Project-Major-orange" />
+
+</div>
+
+<hr/>
+
+<h2>📌 About the Project</h2>
+
+<p>
+<strong>Expenses Tracker</strong> is a full-stack web application built to help users
+manage their daily income and expenses in a clean and organized way.
+</p>
+
+<p>
+The project focuses on practical financial tracking while implementing real-world
+full-stack development concepts using the <strong>MERN stack</strong>.
+It is suitable for academic submission as well as portfolio use.
+</p>
+
+<hr/>
+
+<h2>✨ Features</h2>
+
+<ul>
+  <li>Add income and expense records</li>
+  <li>Categorize transactions</li>
+  <li>View complete expense history</li>
+  <li>REST API based backend</li>
+  <li>Simple and user-friendly UI</li>
+</ul>
+
+<hr/>
+
+<h2>🛠 Tech Stack</h2>
+
+<table>
+  <tr>
+    <td><strong>Frontend</strong></td>
+    <td>React, HTML, CSS, JavaScript</td>
+  </tr>
+  <tr>
+    <td><strong>Backend</strong></td>
+    <td>Node.js, Express.js</td>
+  </tr>
+  <tr>
+    <td><strong>Database</strong></td>
+    <td>MongoDB</td>
+  </tr>
+  <tr>
+    <td><strong>Tools</strong></td>
+    <td>Git, GitHub, npm, Visual Studio Code</td>
+  </tr>
+</table>
+
+<hr/>
+
+<h2>📁 Project Structure</h2>
+
+<pre>
 expense-tracker/
-│
-├── backend/        # Server, routes, controllers
-├── frontend/       # UI components and logic
-├── package.json
+├── backend/
+├── frontend/
 └── README.md
+</pre>
 
-🚀 Installation & Setup
-Prerequisites
+<hr/>
 
-Node.js
+<h2>🚀 Installation & Setup</h2>
 
-npm
-
-MongoDB (local or cloud)
-
-Steps
-# Clone the repository
-git clone https://github.com/USERNAME/REPO_NAME.git
-
-# Go to project folder
+<pre>
+git clone https://github.com/Mantshakhan10/Expenses-Tracker.git
 cd expense-tracker
+</pre>
 
-# Backend setup
+<h3>Backend</h3>
+<pre>
 cd backend
 npm install
 npm start
+</pre>
 
-# Frontend setup
+<h3>Frontend</h3>
+<pre>
 cd ../frontend
 npm install
 npm start
+</pre>
 
-🔐 Environment Variables
+<hr/>
 
-Create a .env file inside the backend folder:
+<h2>🔐 Environment Variables</h2>
 
+<pre>
 MONGO_URI=your_mongodb_connection_string
 PORT=5000
+</pre>
 
-📚 Learning Outcomes
+<hr/>
 
-Understanding full-stack architecture
+<h2>📚 Learning Outcomes</h2>
 
-Building REST APIs with Express
+<ul>
+  <li>Understanding full-stack architecture</li>
+  <li>Building RESTful APIs</li>
+  <li>Working with MongoDB</li>
+  <li>Managing frontend and backend separately</li>
+  <li>Using Git & GitHub professionally</li>
+</ul>
 
-Working with MongoDB and schemas
+<hr/>
 
-Managing frontend and backend separately
+<h2>🌱 Future Enhancements</h2>
 
-Using GitHub for real projects
+<ul>
+  <li>User authentication</li>
+  <li>Expense analytics and charts</li>
+  <li>Monthly and yearly reports</li>
+  <li>UI/UX improvements</li>
+</ul>
 
-🌱 Future Improvements
+<hr/>
 
-🔐 User authentication
+<h2>👩‍💻 Author</h2>
 
-📊 Expense analytics and charts
+<p>
+<strong>Mantsha Khan</strong><br/>
 
-📅 Monthly and yearly reports
+MERN Stack Development Project
+</p>
 
-📤 Export data feature
+<hr/>
 
-🎨 UI/UX enhancements
-
-👩‍💻 Author
-<div style="border-left:4px solid #4CAF50; padding-left:10px;"> <strong>Mantsha Khan</strong><br> BCA Student<br> Full Stack Development Project </div>
 <div align="center">
-
-⭐ If you find this project useful, give it a star on GitHub ⭐
-
+  ⭐ If you like this project, give it a star on GitHub ⭐
 </div>
